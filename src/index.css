@@ -40,6 +40,7 @@ html {
     justify-content: space-around;
     align-items: center;
     padding: 1%;
+  
 }
 
 .Nav-child {
@@ -70,6 +71,7 @@ html {
 
 .Home-MainBox{
     display: flex;
+    width: 100vw;
     flex-direction: row;
     align-content: space-around;
     justify-content: center;
@@ -104,14 +106,24 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
     min-height: 100%;
     padding: 1%;
     
 }
 
-.Home-MainBox-imagebox{
-        
+.Home-MainBox-child {
+    display: flex;
+    min-width: 50vw;
+    max-width: 50vw;
+    align-items: center;
+    background-color: #f6d867;
+}
+
+.Home-MainBox-textbox-p{
+    flex-grow: 1;
+    font-size: 120%;
+    padding: .1%;
+    
 }
 
 
