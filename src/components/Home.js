@@ -26,7 +26,6 @@ const Home = () => {
                         <p className="Home-MainBox-textbox-p">backend</p>
                         <p className="Home-MainBox-textbox-p">node, npm</p> 
                         <p className="Home-MainBox-textbox-p">git</p>
-                        <p className="Home-MainBox-textbox-p">Visual Studio Code</p>
                         <p className="Home-MainBox-textbox-p">expressjs</p>
                         <p className="Home-MainBox-textbox-p">mongoose</p>
                         <p className="Home-MainBox-textbox-p">mongodb</p>

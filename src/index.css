@@ -116,16 +116,65 @@ html {
     min-width: 50vw;
     max-width: 50vw;
     align-items: center;
-    background-color: #f6d867;
+    background: linear-gradient(90deg, rgba(246,216,103,1) 44%, rgba(255,255,255,1) 100%); 
 }
 
 .Home-MainBox-textbox-p{
     flex-grow: 1;
     font-size: 120%;
     padding: .1%;
-    
 }
 
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin: auto;
+}
 
+.AboutHeadingBox-h1 {
+    padding: 2%;
+}
+
+.AboutImageBox {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.AboutHeadingBox {
+    display: flex;
+    background-color: #fd703b;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutHeadingBox-img {
+    height: 40px;
+    border-radius: 1000%;
+}
+
+.AboutImageBox-img {
+    object-fit: cover;
+    object-position: center;
+    height: 10rem;
+    width: 90vw;
+}
+
+.AboutTextBox {
+    margin-top: 2%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start
+}
+
+.AboutTextBox-p {
+    padding: 1%;
+    max-width: 100ch;
+    font-size: 120%;
+}
 
 
