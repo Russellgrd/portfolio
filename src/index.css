@@ -144,7 +144,7 @@ html {
     width: 60%;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(246,216,103,1) 44%, rgba(255,255,255,1) 100%); 
+    background: #faef93;
 }
 
 @media only screen and (max-width: 900px) {
@@ -174,45 +174,32 @@ html {
     border-radius: 100%;
 }
 
-
-
 .AboutTextBox {
-    flex-grow: 1;
     display: flex;
-    align-items: center;
-    justify-items: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-.AboutTextBox-p {   
-    max-width: 50%;
-    line-height: 25px;
-    margin: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.AboutTextBox-imgDiv{
-    display: flex;
+    height: 100%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-    max-width: 50%;
-    height: 100%;
- 
+    max-width: 75%;
+    padding: 1%;
+    
+}
+
+.AboutTextBox-p {
+    margin: 1%;
+}
+
+.AboutTextBox-imgDiv {
+    display: flex;
+    max-height: 100%;
 }
 
 .AboutBox-imgDiv-img {
-    height: 400px;
-    width: 500px;
-    object-position: center;
+        height: 30vh;
+        max-width: 100%;
+        object-fit: cover;
+
 }
 
-.AboutTextBox-p2{
-    border-bottom: 1px solid #ffb347;
-}
 
 .Contact{
     display: flex;
