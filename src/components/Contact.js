@@ -16,7 +16,7 @@ const Contact = () => {
         let messageObject = {name,email,message};
         if(messageObject.name && messageObject.email && messageObject.message) {
 
-            fetch('http://localhost:3001', { 
+            fetch('https://russellgeorgedriver.herokuapp.com/', { 
                 method:'POST',
                 headers: {
                     'Content-Type':'application/json'
