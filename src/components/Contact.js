@@ -30,6 +30,9 @@ const Contact = () => {
                     history.push('/');
                 },2000)
             })
+            .catch((err) => {
+                console.log(err)
+            })
         } else {
             setIsformComplete(true)
         }
@@ -49,6 +52,9 @@ const Contact = () => {
                { messageSubmitting && <button onClick={(e) => {handleSubmit(e)}} className="Contact-form-box-button" value="submit">Submitting...</button> }
                { isformComplete && <p className="Contact-form-box-feedback">Please ensure all fields have been entered...</p> }
             </form>
+
+            <p className="Contact-email">Alternatively you can email me directly at russell_driver@ymail.com</p>
+
         </div>
     )
 }
