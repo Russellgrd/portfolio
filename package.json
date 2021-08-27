@@ -2,7 +2,7 @@
   "name": "russellgeorgedriver",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://russellgrd.github.io/",
+  "homepage": "https://russellgrd.github.io/portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
