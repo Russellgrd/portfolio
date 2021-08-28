@@ -53,7 +53,7 @@ const Contact = () => {
                { isformComplete && <p className="Contact-form-box-feedback">Please ensure all fields have been entered...</p> }
             </form>
 
-            <p className="Contact-email">Alternatively you can email me directly at russell_driver@ymail.com</p>
+            <p className="Contact-email">Alternatively you can email me directly at driver.george85@gmail.com</p>
 
         </div>
     )

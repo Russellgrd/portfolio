@@ -6,7 +6,7 @@ import react from '../images/react.png';
 const Home = () => {
     return ( 
         <div className="Home">
-        <h3 className="Home-title">Russell George Driver - Javascript web developer</h3>
+        <h3 className="Home-title">George, R Driver - Javascript web developer</h3>
 
                 <div className="Home-title-iconsBox">
                     <img className="Home-title-iconsBox-icon" src={code} />
