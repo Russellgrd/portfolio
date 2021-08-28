@@ -28,7 +28,7 @@ const Contact = () => {
                 setIsformComplete(false);
                 setTimeout(() => {
                     history.push('/');
-                },2000)
+                },500)
             })
             .catch((err) => {
                 console.log(err)
