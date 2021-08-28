@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="App">
         <Nav />
         <Switch>
